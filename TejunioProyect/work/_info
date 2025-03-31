@@ -1,0 +1,227 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+Z0 !s110 1743445025
+!i10b 1
+!s100 ei<WzllA^kKe3>K]PjiVV1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4>heYiJ;XAORa?z?;Hb891
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/usuario/Documents/Djce/TejunioProyect
+Z4 w1743444798
+Z5 8C:/Users/usuario/Documents/Djce/TejunioProyect/Tejuino.v
+Z6 FC:/Users/usuario/Documents/Djce/TejunioProyect/Tejuino.v
+!i122 9
+L0 234 23
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1743445025.000000
+Z9 !s107 C:/Users/usuario/Documents/Djce/TejunioProyect/Tejuino.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Documents/Djce/TejunioProyect/Tejuino.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u
+vBancRegister
+R0
+!i10b 1
+!s100 ZNl7efoL?]4fEO]PDM]0b0
+R1
+I9h=@fC=zN;a9Ho]RP20BI1
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 141 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@banc@register
+vBuffer1
+R0
+!i10b 1
+!s100 bA4YJf5MliDJS`1>m>WP11
+R1
+ICHH:4L;033Io<kFU:8fMf1
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 164 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@buffer1
+vBuffer2
+R0
+!i10b 1
+!s100 :^_@23ng:Xc[gB;]b2<Yi3
+R1
+I08C^b8k02WGUndD^E>B_?3
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 181 16
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@buffer2
+vController
+R0
+!i10b 1
+!s100 Bc_@S4UGO_UM5NINMf>Y`1
+R1
+ISQDXXY_OS^b_;V]9XmiTN3
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 100 38
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@controller
+vDemuxo
+R0
+!i10b 1
+!s100 2WdjWnVV`XhKoSz[zYzf>0
+R1
+I[7LfHBV0Fg_e9RC23>SW:0
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 199 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@demuxo
+vJericalla_Evolution
+R0
+!i10b 1
+!s100 1>=bZYF[`6;CfESbRi4Gm3
+R1
+IfGXz=:fY_jeEEF8nWRT213
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 3 95
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@jericalla_@evolution
+vJericalla_Evolution_TB
+R0
+!i10b 1
+!s100 Eh?=OCjzL6nK]nzSbG4nN3
+R1
+IY8S1E3@2:c^Vgcf_Z=XkL0
+R2
+R3
+w1743445018
+8C:/Users/usuario/Documents/Djce/TejunioProyect/TejuinoTB.v
+FC:/Users/usuario/Documents/Djce/TejunioProyect/TejuinoTB.v
+!i122 10
+L0 3 38
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/usuario/Documents/Djce/TejunioProyect/TejuinoTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Documents/Djce/TejunioProyect/TejuinoTB.v|
+!i113 1
+R11
+R12
+n@jericalla_@evolution_@t@b
+vMemoryData
+R0
+!i10b 1
+!s100 ^_[VJbLWc=GFXJCA>^_B@0
+R1
+Ijnn7UKTUzAIcif^2R3iK31
+R2
+R3
+R4
+R5
+R6
+!i122 9
+L0 214 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@memory@data
