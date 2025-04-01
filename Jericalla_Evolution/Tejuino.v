@@ -71,16 +71,16 @@ Buffer2 BufferTwo(
     .WriteEnableIn(B1_WE_OUT),
     .ReadEnIn(B1_RE_OUT),
     .BancWEIn(B1_BRWE_OUT),
+    .dataDemux(cDemuxDataMem),
     .data1In(buffer2_D2_In),
     .data2In(buffer1_D2_Out),
-    .dataDemux(cDemuxDataMem),
     //Outputs 
     .WriteEnableOut(B2_WE_OUT),
     .ReadEnOut(B2_RE_OUT),
     .BancWEOut(B2_BRWE_OUT),
+    .dataDOut(buffer2_DD_Out),
     .data1Out(buffer2_D1_Out),
-    .data2Out(buffer2_D2_Out),
-    .dataDOut(buffer2_DD_Out)
+    .data2Out(buffer2_D2_Out)
 );
 MemoryData MemData(
     .WEn(B2_WE_OUT),
@@ -110,27 +110,27 @@ always @(*) begin
             Demuxo = 1'b0;
             BWE = 1'b1;   
             WeMD = 1'b0;   
-            ReMD = 1'b1;
+            ReMD = 1'b0;
         end
         2'b01: begin
             Sel = 4'b0110; 
             Demuxo = 1'b0;
             BWE = 1'b1;   
             WeMD = 1'b0;   
-            ReMD = 1'b1;
+            ReMD = 1'b0;
         end
         2'b10: begin
             Sel = 4'b0111;   
             Demuxo = 1'b0;
             BWE = 1'b1;
             WeMD = 1'b0;   
-            ReMD = 1'b1;
+            ReMD = 1'b0;
         end
         2'b11: begin
             Demuxo = 1'b1;
             BWE = 1'b0;
             WeMD = 1'b1;
-            ReMD = 1'b1;
+            ReMD = 1'b0;
         end
     endcase
 end

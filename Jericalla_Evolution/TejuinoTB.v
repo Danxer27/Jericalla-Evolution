@@ -12,11 +12,11 @@ module Jericalla_Evolution_TB;
         .DS(DataOut)
     );
 
-    always #10 Clk = ~Clk;
+    always #5 Clk = ~Clk;
 
     initial begin
         Clk = 0;
-        instruccion = 17'b10000110010000000;
+        instruccion = 17'b00001000000100000;
         #20;
 
         instruccion = 17'b01001010000100010;
